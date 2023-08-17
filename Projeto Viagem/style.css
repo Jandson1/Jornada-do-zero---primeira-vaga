@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    text-align: center;
+    padding-top: 160px;
+    
+    background-image: url(https://i.ibb.co/9w6MsP9/beach-g9f1a4e1ec-1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    font-family: 'Cinzel', serif;
+}
+
+h1{
+    color: #000000;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    opacity: .8;
+
+    font-family: 'Cinzel', serif;
+}
+
+h1 span {
+    color: #3922a1;
+}
+
+
+
+p {
+    font-family: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    opacity: 1;
+}
+
+a {
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100px;
+    color: black;
+    opacity: .7;
+    border-radius: 80px;
+}
+
+a:hover, .btn-primary {
+    text-decoration: none;
+    color: black;
+    background-color: #3922a1;
+    opacity: 1;
+    
+}
